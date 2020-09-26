@@ -32,5 +32,3 @@ web-build/
 /.pnp
 .pnp.js
 # @end @expo/next-adapter
-
-.vercel
