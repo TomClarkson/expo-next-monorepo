@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "expo-yarn-workspaces": "^1.2.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "native": "cd packages/app && yarn start",
+    "web": "cd packages/app && yarn next"
+  }
+}
