@@ -6,5 +6,7 @@ type Props = {};
 export default function BaseComponent(props: Props) {
   const {} = props;
 
-  return <View style={{ backgroundColor: "red", height: 500, width: 500 }} />;
+  return (
+    <View style={{ backgroundColor: "purple", height: 500, width: 500 }} />
+  );
 }
