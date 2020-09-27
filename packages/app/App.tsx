@@ -7,7 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <BaseComponent />
-      <Text>!!Open up App.tsx to start working on your app!!</Text>
+      <Text>HELLO WORLD</Text>
       <StatusBar style="auto" />
     </View>
   );
